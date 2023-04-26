@@ -32,4 +32,14 @@ public class Branch {
         this.telephone = telephone;
     }
 
+    // DoneTODO: move this method to Branch class
+    public void changeOpeningTime(String openingTime) {
+        setOpeningTime(openingTime);
+    }
+
+    // DoneTODO: move this method to Branch class
+    public void registerTelephone(String telephone) {
+        setTelephone(telephone);
+    }
+
 }
